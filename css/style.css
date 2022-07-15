@@ -9,8 +9,84 @@ body {
 }
 .navbar-container{
     background-color: #262B37;
+    font-weight: bold;
+    position: sticky;
+    top: 0%;
+    z-index: 5;
 }
 .about-container{
     background-color: #00BDBD;
     color: white;
+}
+.education-container{
+    background-color: #EEEEEE;
+}
+.education-color{
+   color: #FB857F;
+   font-weight: bolder;
+}
+.circle{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.project-container{
+    background-color: #2BB3DD;
+}
+.project{
+    font-weight:800;
+}
+.none{
+    text-decoration: none;
+}
+.portfolio{
+    font-weight: bold;
+    color: #FB857F;
+}
+.form-container{
+    background-color: #474D5D;
+}
+.contact{
+    color: white;
+}
+.contact h2{
+    font-weight: bold;
+}
+.number{
+    color: white;
+    font-size: 72px;
+}
+.number_p{
+    font-size: 21px;
+}
+.form-row{
+    justify-content: left;
+}
+.inner-form{
+    background-color: #585F73;
+}
+.button-color{
+    background-color: #FB857F;
+}
+.button-color:hover{
+    background-color: #FB857F;
+    color: black !important;
+}
+.footer{
+    background-color: #00BDBD;
+}
+.footer-circle{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: #2BB3DD;
+}
+.footer-circle:hover{
+    background-color: #46494d;
 }
